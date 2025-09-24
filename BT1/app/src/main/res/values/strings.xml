@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dual Phone UI</string>
-    <string name="username_hint_332">User Name</string>
-    <string name="password_hint_332">••••••••••••</string>
-    <string name="login_button_text_332">LOGIN ME</string>
-    <string name="lost_password_text_332">📱 Lost password ?</string>
-    <string name="email_placeholder_332">Email : mail@email.com</string>
-    <string name="phone_placeholder_332">Phone : +99 999 555 222</string>
-    <string name="skype_placeholder_332">Skype : myskpie</string>
-    <string name="web_placeholder_332">Web : mywebsite.com</string>
-    <string name="stat_left_default_332">125</string>
-    <string name="stat_right_default_332">250</string>
+    <string name="app_name">PhamLeThieuQuang_332</string>
 </resources>

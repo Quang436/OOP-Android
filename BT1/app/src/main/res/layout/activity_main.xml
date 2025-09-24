@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
@@ -14,17 +15,17 @@
         android:layout_height="600dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="#4285F4"
+        android:background="@drawable/phone_background_332"
         android:layout_marginEnd="10dp"
         android:padding="20dp"
         android:gravity="center">
 
         <!-- Logo -->
-        <View
+        <ImageView
             android:id="@+id/logo_left_332"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="#FFFFFF"
+            android:src="@drawable/logo_332"
             android:layout_marginBottom="40dp" />
 
         <!-- Form đăng nhập -->
@@ -43,7 +44,7 @@
                 android:hint="User Name"
                 android:textColorHint="#FFFFFF"
                 android:textColor="#FFFFFF"
-                android:background="#00000000"
+                android:background="@drawable/input_background_332"
                 android:paddingHorizontal="15dp"
                 android:layout_marginBottom="15dp" />
 
@@ -56,7 +57,7 @@
                 android:textColorHint="#FFFFFF"
                 android:textColor="#FFFFFF"
                 android:inputType="textPassword"
-                android:background="#00000000"
+                android:background="@drawable/input_background_332"
                 android:paddingHorizontal="15dp"
                 android:layout_marginBottom="25dp" />
 
@@ -69,7 +70,7 @@
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:background="#1A73E8"
+                android:background="@drawable/button_background_332"
                 android:layout_marginBottom="20dp" />
 
             <!-- Lost Password -->
@@ -93,17 +94,18 @@
         android:layout_height="600dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="#4285F4"
+        android:background="@drawable/phone_background_332"
         android:layout_marginStart="10dp"
         android:padding="20dp"
         android:gravity="center">
 
         <!-- Avatar -->
-        <View
+        <ImageView
             android:id="@+id/avatar_332"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="#FFFFFF"
+            android:src="@drawable/avatar_332"
+            android:background="@drawable/circle_background_332"
             android:layout_marginBottom="20dp" />
 
         <!-- Numbers -->
@@ -152,7 +154,7 @@
                 android:hint="Email : mail@email.com"
                 android:textColorHint="#FFFFFF"
                 android:textColor="#FFFFFF"
-                android:background="#00000000"
+                android:background="@drawable/input_background_332"
                 android:paddingHorizontal="15dp"
                 android:layout_marginBottom="12dp"
                 android:textSize="14sp" />
@@ -165,7 +167,7 @@
                 android:hint="Phone : +99 999 555 222"
                 android:textColorHint="#FFFFFF"
                 android:textColor="#FFFFFF"
-                android:background="#00000000"
+                android:background="@drawable/input_background_332"
                 android:paddingHorizontal="15dp"
                 android:layout_marginBottom="12dp"
                 android:textSize="14sp" />
@@ -178,7 +180,7 @@
                 android:hint="Skype : myskpie"
                 android:textColorHint="#FFFFFF"
                 android:textColor="#FFFFFF"
-                android:background="#00000000"
+                android:background="@drawable/input_background_332"
                 android:paddingHorizontal="15dp"
                 android:layout_marginBottom="12dp"
                 android:textSize="14sp" />
@@ -191,7 +193,7 @@
                 android:hint="Web : mywebsite.com"
                 android:textColorHint="#FFFFFF"
                 android:textColor="#FFFFFF"
-                android:background="#00000000"
+                android:background="@drawable/input_background_332"
                 android:paddingHorizontal="15dp"
                 android:textSize="14sp" />
 

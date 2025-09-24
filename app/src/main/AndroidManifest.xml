@@ -10,20 +10,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:theme="@style/Theme.Test">
-=======
-        android:theme="@style/Theme.PhamLeThieuQuang_332">
->>>>>>> 6ba2520 (add)
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-<<<<<<< HEAD
             android:theme="@style/Theme.Test">
-=======
-            android:theme="@style/Theme.PhamLeThieuQuang_332">
->>>>>>> 6ba2520 (add)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
