@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Test</string>
+=======
+    <string name="app_name">PhamLeThieuQuang_332</string>
+>>>>>>> 6ba2520 (add)
 </resources>

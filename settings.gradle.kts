@@ -19,6 +19,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Test"
 include(":app")
  
+=======
+rootProject.name = "PhamLeThieuQuang_332"
+include(":app")
+>>>>>>> 6ba2520 (add)
