@@ -1,9 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Fragmentdemo" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.Fragmentdemo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryVariant">#1976D2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorSecondaryVariant">#F57C00</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">#1976D2</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
-
-    <style name="Theme.Fragmentdemo" parent="Base.Theme.Fragmentdemo" />
 </resources>

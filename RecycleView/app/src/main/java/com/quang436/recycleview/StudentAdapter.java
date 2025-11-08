@@ -11,10 +11,10 @@ import java.util.List;
 
 public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentViewHolder> {
 
-    private List<Student> studentList;
+    private List<Student> studentList_2332;
 
     public StudentAdapter(List<Student> studentList) {
-        this.studentList = studentList;
+        this.studentList_2332 = studentList;
     }
 
     @NonNull
@@ -27,7 +27,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
 
     @Override
     public void onBindViewHolder(@NonNull StudentViewHolder holder, int position) {
-        Student student = studentList.get(position);
+        Student student = studentList_2332.get(position);
         holder.tvName.setText(student.getName());
         holder.tvScore.setText(String.valueOf(student.getScore()));
 
@@ -44,7 +44,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
 
     @Override
     public int getItemCount() {
-        return studentList.size();
+        return studentList_2332.size();
     }
 
     // ViewHolder class

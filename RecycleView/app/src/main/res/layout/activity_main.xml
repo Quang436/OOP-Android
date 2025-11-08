@@ -45,11 +45,11 @@
 
     <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/recycler_view_2332"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="8dp"
         android:clipToPadding="false"
+        android:padding="8dp"
         tools:listitem="@layout/item_student" />
 
 </LinearLayout>
