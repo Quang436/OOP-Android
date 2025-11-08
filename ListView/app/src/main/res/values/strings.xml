@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListView MonHoc</string>
+
+    <string-array name="ds_mon_hoc">
+        <item>Toán</item>
+        <item>Lý</item>
+        <item>Hoá</item>
+        <item>Văn</item>
+        <item>Sinh</item>
+        <item>Sử</item>
+        <item>Địa</item>
+        <item>GDCD</item>
+        <item>Tin học</item>
+        <item>Âm nhạc</item>
+    </string-array>
+</resources>
