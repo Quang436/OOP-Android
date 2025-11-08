@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.RecycleView" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryVariant">#7B1FA2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#E1BEE7</item>
+        <item name="colorSecondaryVariant">#CE93D8</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">#7B1FA2</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
